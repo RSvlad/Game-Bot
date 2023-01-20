@@ -1,9 +1,7 @@
-import os
 import dxcam
-import predict
-import game_control
-from PIL import Image
 from keras.models import model_from_json
+
+from game_control import get_key, press, release, click
 
 
 def main():
@@ -37,7 +35,7 @@ while True:
         elif Y[0] == 1:
             if Y[3] == 1:
                 click(Y[1], Y[2])
-            elif Y[3] == 0:
-                position(Y[1], Y[2])
+            # elif Y[3] == 0:
+            #    position(Y[1], Y[2])
     else:
         continue
