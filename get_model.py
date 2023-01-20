@@ -1,7 +1,7 @@
 import os
 
-from tensorflow.keras.layers import Input, Conv2D, Activation, MaxPooling2D, Flatten, Dense, Dropout
-from tensorflow.keras.models import Model
+from keras.layers import Input, Conv2D, Activation, MaxPooling2D, Flatten, Dense, Dropout
+from keras.models import Model
 
 
 def save_model(model):

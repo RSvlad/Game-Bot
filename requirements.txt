@@ -1,8 +1,10 @@
-numpy
-scikit-learn
+numpy~=1.24.1
+scikit-learn~=1.2.0
 scikit-image
-pillow
-tensorflow
-keras
-pynput
+pillow~=9.4.0
+tensorflow~=2.11.0
+keras~=2.11.0
+pynput~=1.7.6
 h5py
+
+dxcam~=0.0.5
